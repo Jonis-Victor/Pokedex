@@ -9,7 +9,7 @@
 
 .logo{
  padding-top: 30px;
- width: 30%;
+ width: 35%;
  min-width: 300px;
  height: 100%;
 }
@@ -22,7 +22,6 @@ body {
 
 main {
   display: inline-block;
-  margin-top: 2%;
   padding: 15px;
   position: relative;
 }
@@ -37,7 +36,7 @@ main {
   bottom: 55%;
   left: 50%;
   transform: translate(-63%, 20%);
-  height: 18%;
+  height: 13%;
 }
 
 .pokemonData {
@@ -46,7 +45,8 @@ main {
   color: #aaa;
   top: 54.5%;
   right: 27%;
-  font-size: clamp(8px, 5vw, 25px);
+  font-size: clamp(8px, 5vw, 20px);
+  text-transform: capitalize;
 }
 
 .pokemonName {
@@ -63,7 +63,7 @@ main {
 
 .inputSearch {
   width: 100%;
-  padding: 4%;
+  padding: 5%;
   outline: none;
   border: 2px solid #333;
   border-radius: 5px;
@@ -76,7 +76,7 @@ main {
 .buttons {
   position: absolute;
   bottom: 10%;
-  left: 51%;
+  left: 50%;
   width: 65%;
   transform: translate(-57%, 0);
   display: flex;
