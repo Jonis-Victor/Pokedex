@@ -43,9 +43,18 @@ main {
   position: absolute;
   font-weight: 600;
   color: #aaa;
-  top: 54.5%;
+  top: 52.7%;
   right: 27%;
   font-size: clamp(8px, 5vw, 20px);
+  text-transform: capitalize;
+}
+.pokemonSubData {
+  position: absolute;
+  font-weight: 600;
+  color: #aaa;
+  top: 56.5%;
+  right: 27%;
+  font-size: clamp(8px, 5vw, 15px);
   text-transform: capitalize;
 }
 
